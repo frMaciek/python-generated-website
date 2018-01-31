@@ -21,28 +21,29 @@ everest = media.Movie("Everest",
 great_silence = media.Movie("Into Great Silence",
                                    "storyline of avatar movie",
                                     "https://images-na.ssl-images-amazon.com/images/I/41gRZJIl5RL._SY445_.jpg",
-                                   "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+                                   "https://www.youtube.com/watch?v=fZND6wUrQFY")
 
 space_odyssey2001 = media.Movie("Space Odyssey 2001",
                                           "storyline of Everest",
                                           "https://cdn1.pamono.com/p/z/2/1/219481_s29tcjivfq/2001-a-space-odyssey-film-poster-1968-1.jpg",
-                                          "https://www.youtube.com/watch?v=dOHS-mxn0RQ")
+                                          "https://www.youtube.com/watch?v=Z2UWOeBcsJI")
 
 one_six_right = media.Movie("One Six Right",
                                    "storyline of avatar movie",
                                     "https://upload.wikimedia.org/wikipedia/en/9/98/OneSixRight_poster_medium.jpg",
-                                   "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+                                   "https://www.youtube.com/watch?v=Dfas3kKruNw")
 
 footprints = media.Movie("Footprints - path of your life",
                                           "storyline of Everest",
                                           "https://images-na.ssl-images-amazon.com/images/M/MV5BZTVlNjFlNDItYzNiMy00NmUxLWExZTgtYjBkMWI4YjQ4YzQ4XkEyXkFqcGdeQXVyNjMyMDIxMjE@._V1_UY1200_CR113,0,630,1200_AL_.jpg",
-                                          "https://www.youtube.com/watch?v=dOHS-mxn0RQ")
+                                          "https://www.youtube.com/watch?v=ApAPxRCzyBM")
 
 #print(avatar.storyline)
                    
 #avatar.show_trailer()
 #toy_story.show_trailer()
 #everest.show_trailer()
+#creating an array 
 movies = [toy_story, avatar, everest, great_silence, space_odyssey2001, one_six_right, footprints]
-
+#launch fresh_tomatoes script
 fresh_tomatoes.open_movies_page(movies)
