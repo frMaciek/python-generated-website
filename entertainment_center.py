@@ -1,5 +1,5 @@
 import media
-import fresh_tomatoes 
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
                                                 "storyline story line, this is storyline",
@@ -10,7 +10,7 @@ toy_story = media.Movie("Toy Story",
 
 avatar = media.Movie("Avatar",
                                    "storyline of avatar movie",
-                                    "https://s3.amazonaws.com/udacity-hosted-downloads/ud036/Creating+the+instance+avatar.png",
+                                    "https://cdn.traileraddict.com/content/20th-century-fox/avatar-6.jpg",
                                    "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 
 everest = media.Movie("Everest",
@@ -39,11 +39,13 @@ footprints = media.Movie("Footprints - path of your life",
                                           "https://www.youtube.com/watch?v=ApAPxRCzyBM")
 
 #print(avatar.storyline)
-                   
+
 #avatar.show_trailer()
 #toy_story.show_trailer()
 #everest.show_trailer()
-#creating an array 
+#creating an array
 movies = [toy_story, avatar, everest, great_silence, space_odyssey2001, one_six_right, footprints]
 #launch fresh_tomatoes script
 fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)
+
